@@ -1,0 +1,15 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #ca6b1d;
+    color: white;
+    font-weight: bolder;
+    margin-top: 1vh;
+}
+
+.field{
+    width: 40vw;
+}

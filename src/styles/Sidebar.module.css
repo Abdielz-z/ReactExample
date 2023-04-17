@@ -1,0 +1,35 @@
+.sidebarcontainer {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarimage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.sidebarmenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarmenuitem {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.sidebarmenuitem:hover {
+  background-color: #555;
+}
